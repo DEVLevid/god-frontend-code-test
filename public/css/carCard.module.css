@@ -1,0 +1,11 @@
+.cardWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 250px;
+}
+
+.carName{
+    display: flex;
+    flex-direction: row;
+}
