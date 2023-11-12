@@ -1,4 +1,4 @@
-import { HelloWorld } from "../src/components/HelloWorld";
+import { HomeComponent } from "../src/components/homeComponent";
 import { StyleProvider, ThemePicker } from "vcc-ui";
 import "../public/css/styles.css";
 import React from "react";
@@ -7,7 +7,7 @@ function HomePage() {
   return (
     <StyleProvider>
       <ThemePicker variant="light">
-        <HelloWorld />
+        <HomeComponent />
       </ThemePicker>
     </StyleProvider>
   );
