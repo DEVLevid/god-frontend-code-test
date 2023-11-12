@@ -10,7 +10,7 @@ import {
   Text,
 } from "vcc-ui";
 import { Car } from "../types/car.interfaces";
-import styles from "../../public/css/carCard.module.css";
+import styles from "../../public/css/components/carCard.module.css";
 
 interface CardProps {
   car: Car;
@@ -43,6 +43,7 @@ export default function CarCard({ car }: CardProps) {
           <Link href="https://www.volvocars.com/" arrow="right">
             SHOP
           </Link>
+          <Spacer />
           <Spacer />
           <Link href="https://www.volvocars.com/" arrow="right">
             LEARN
